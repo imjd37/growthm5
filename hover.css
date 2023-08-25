@@ -53,6 +53,31 @@
 
 
 .container8box:hover{
-    height: 600px;
-   
+background-size: 130%;
+position: relative;
+padding-bottom: 20px;
+margin-bottom: 70px;
+
+ transition: 1s;
 }
+
+.container8box h1:hover {
+   
+    line-height: 90px;
+    transition: 1s;
+}
+
+
+.blogpost:hover{
+    border: 2px solid blue;
+    height: 452px;
+    width: 20.2%;
+    position: relative;
+    transition: 0.8s;
+    
+}
+/* 
+.blogpost img:hover{
+   
+    width: 410px;
+} */
