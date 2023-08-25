@@ -1,0 +1,58 @@
+
+
+
+.btnyellow:hover{
+    background-color: rgb(36, 35, 35);
+    color: white;
+    width: 260px;
+    height: 70px;
+    transition: 0.2s;
+    border: 1px solid rgb(236, 231, 159);
+}
+
+
+.menubar ul li a::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.1em;
+    background-color: black;
+    transition:300ms;
+}
+
+.menubar ul li a{
+    overflow: hidden;
+}
+
+.menubar ul li a::after{
+    opacity: 0.4;
+    transform: translate3d(-100%,0,0);
+}
+
+.menubar ul li a:hover::after,
+.menubar ul li a:focus::after{
+    transform: translate3d(0,0, 0);
+}
+
+
+.containerbox button:hover {
+    height: 85px;
+}
+
+
+.container5 .btnyellow:hover {
+    height: 105px;
+}
+
+
+.container8box .btnyellow:hover {
+    height: 85px;
+}
+
+
+.container8box:hover{
+    height: 600px;
+   
+}

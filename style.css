@@ -35,11 +35,19 @@ body {
 
 }
 
+
 .menubar {
     display: flex;
     align-items: center;
     ;
 
+}
+
+.menubar .btn{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menubar ul {
@@ -49,14 +57,29 @@ body {
 .menubar ul li {
     margin: 20px 30px;
     list-style: none;
+    cursor: pointer;
 }
+
+.menubar ul li a{
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    padding: 0.2em 0;
+}
+
+
+
+
 
 .btnyellow {
     width: 250px;
     height: 60px;
     border-radius: 50px;
+    border: none;
     font-size: 1.5rem;
     background-color: rgb(214, 214, 111);
+    cursor: pointer;
 }
 
 
@@ -91,8 +114,8 @@ body {
 }
 
 .containerbox h5 {
-    opacity: 0.8;
-    color: rgb(192, 190, 190);
+    opacity: 0.6;
+    color: white;
 
 }
 
@@ -218,8 +241,8 @@ body {
 }
 
 .container5 img {
-    height: 800px;
-    width: 800px;
+    max-width: 600px;
+    width: 100%;
     margin: 20px 100px;
 }
 
@@ -228,9 +251,19 @@ body {
 }
 
 .container6 {
-    height: 400px;
+    height: 300px;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
+.container6 .cardsection{
+    display: flex;
+   ;
+}
+
+.container6 .cardsection .card{
+    margin: 40px
+}
 
 .container7 {
     height: 600px;
@@ -378,6 +411,7 @@ body {
 }
 
 .containervideo {
+    margin: 80px;
     width: 1250px;
     display: flex;
     justify-content: center;
