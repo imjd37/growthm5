@@ -71,13 +71,15 @@ margin-bottom: 70px;
 .blogpost:hover{
     border: 2px solid blue;
     height: 452px;
-    width: 20.2%;
+    width: 355px;
     position: relative;
     transition: 0.8s;
     
 }
-/* 
+
 .blogpost img:hover{
    
-    width: 410px;
-} */
+    width: 100%;
+}
+
+

@@ -8,13 +8,17 @@
 body {
     margin: 0;
     display: flex;
+    width: 100vw;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
+    
 
 }
 
 .navarea {
     display: flex;
+    width: 100vw;
     justify-content: center;
 }
 
@@ -89,12 +93,13 @@ body {
     background-image: url(imgs/pexels-life-of-pix-7974.jpg);
     background-size: cover;
     background-position: 0%;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     font-size: 2rem;
     display: flex;
     align-items: flex-end;
     justify-content: center;
+
 
 
 
@@ -106,6 +111,7 @@ body {
     text-align: center;
     margin-bottom: 80px;
     line-height: 60px;
+    width: 60vw;
 }
 
 .containerbox button {
@@ -126,62 +132,74 @@ body {
 
 .container2 {
     max-width: 1800px;
-    ;
-    height: 400px;
-    margin: 100px;
+    padding: 100px;
+   
+}
 
+.container2row{
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     justify-content: center;
-    align-items: center;
+    gap: 8em;
 }
 
-.container2 .textarea {
-
-    margin: 0 40px;
-}
-
-.container2 .textarea h1 {
-    font-size: 80px;
+.container2row .textarea {
+width: 40%;
 
 }
 
-.container2 .textarea p {
-    font-size: 30px;
+.container2row .textarea h1 {
+    font-size: 3.2em;
+    margin: 0;
+
 
 }
 
-.container2 img {
+.container2row .textarea p {
+    font-size: 1.8em;
+
+}
+
+.container2row img {
     height: 500px;
-    width: 500px;
+    max-width: 400px;
+    width: 40%;
+    object-fit: cover;
+
+   
+    
+       
 }
 
 
 
 .container3 {
-
+ 
     max-width: 1800px;
+    
+    margin: 0 80px;
     display: flex;
-    align-items: center;
-    margin: 10px;
-    padding: 0 150px;
     font-size: 1.5rem;
-    padding: 0 80px
+    gap: 8%;
+    margin: 0 8%;
+    text-align: center;
+ 
 }
-
 .container3 .box1 {
-    height: 500px;
-    width: 30vw;
+    height: 100%;
+    width: 100%;
     display: flex;
-
     padding: 20px;
+    margin: 20px;
     flex-direction: column;
     align-items: center;
     line-height: 40px;
 }
 
 .container3 .box2 {
-    height: 500px;
-    width: 30vw;
+    height: 100%;
+    width: 100%;
     display: flex;
     margin-top: 150px;
     padding: 20px;
@@ -196,23 +214,23 @@ body {
 }
 
 .container3 img {
-    height: 400px;
-    width: 320px;
+    width: 100%;
     border-radius: 35%;
 }
 
 .container4 {
-    height: 800px;
-    /* width: 100%; */
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 100px;
     padding: 0 100px
 }
+.container4  .containerbox{
+    width: 40vw;
+    font-size: 2.8rem;
+    line-height: 90px;
 
-.container4 h2 {
-    font-size: 3rem;
+
 
 }
 
@@ -227,11 +245,12 @@ body {
     height: 1000px;
     width: 100%;
     background-color: black;
+    gap: 15%;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: rgb(214, 214, 111);
 }
 
@@ -242,7 +261,7 @@ body {
 .container5 img {
     max-width: 600px;
     width: 100%;
-    margin: 20px 100px;
+    
 }
 
 .container5 .btnyellow {
@@ -250,14 +269,15 @@ body {
 }
 
 .container6 {
-    height: 300px;
+    width: 100vw;
     font-size: 1.5rem;
     text-align: center;
 }
 
 .container6 .cardsection{
     display: flex;
-   ;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .container6 .cardsection .card{
@@ -276,17 +296,6 @@ body {
 
 }
 
-
-/* .container8 {
-    height: 550px;
-    max-width: 1800px;
-    width: 1800px;
-    margin: 100px 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-} */
 
 .container8box {
     background-color: blueviolet;
@@ -336,6 +345,7 @@ body {
 
 .conrainerblogpost {
     max-width: 1800px;
+    width: 100vw;
 
 }
 .conrainerblogpost h1 {
@@ -347,9 +357,8 @@ body {
 
 .blogpost {
     height: 450px;
-    width: 20%;
+    width: 350px;
     margin: 0 10px;
-    align-items: stretch;
     border: 2px solid transparent;
     border-radius: 20px;
     display: flex;
@@ -375,6 +384,7 @@ body {
     align-items: center;
     margin: 10px 20px;
 
+
 }
 
 .blogpost .user img {
@@ -387,11 +397,9 @@ body {
 
 .allblogpost {
     max-width: 1800px;
-    width: 1600px;
-    height: 550px;
+    width: 100vw;
     display: flex;
     flex-wrap: wrap;
-   
     justify-content: center;
     
    
@@ -407,7 +415,7 @@ body {
 
 .ourteam {
     display: flex;
-    width: 1200px;
+    width: 98vw;
     align-items: center;
     justify-content: center;
 }
@@ -416,7 +424,10 @@ body {
     margin: 15px;
     width: 400px;
     text-align: center;
-    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 50px;
     color: rgb(236, 231, 159);
 }
 
@@ -436,29 +447,24 @@ body {
 
 .containervideo {
     margin: 80px;
-    width: 1250px;
+    width: 80vw;
+    height: 600px;
+    padding: 0 100px;
     display: flex;
     justify-content: center;
-
-
-
-
 }
 
 .containervideo .video {
     background-image: url(imgs/pexels-olya-kobruseva-7598019.jpeg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 100%;
+    background-size: cover;
     width: 100%;
-    height: 500px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 30px;
-
-
-
-
+    border-radius: 20px;
 }
 
 
@@ -523,5 +529,7 @@ footer {
     text-align: center;
     height: 60px;
     font-size: 2rem;
-    padding: 20px;
+    padding: 20px 0;
 }
+
+
