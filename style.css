@@ -23,7 +23,8 @@ body {
     justify-content: center;
 }
 
-.navbar {
+
+.navbar1 {
     background-color: white;
     position: fixed;
     margin: 25px;
@@ -37,6 +38,25 @@ body {
     padding: 0 40px;
     font-size: 1.3rem;
     z-index: 99;
+    transition: 400ms;
+
+}
+
+.navbar2 {
+    background-color: transparent;
+    position: fixed;
+    margin: 25px;
+    border-radius: 20px;
+    max-width: 1800px;
+    width: 88vw;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    font-size: 1.3rem;
+    z-index: 99;
+    transition: 400ms;
 
 }
 
