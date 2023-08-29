@@ -1,12 +1,10 @@
 .btnyellow:hover {
     background-color: rgb(36, 35, 35);
     color: white;
-    width: 260px;
-    height: 70px;
+    border: 2px solid rgb(236, 231, 159);
+    transform: scale(1.03);
     transition: 0.2s;
-    border: 1px solid rgb(236, 231, 159);
 }
-
 
 .menubar ul li a::after {
     content: '';
@@ -34,27 +32,11 @@
 }
 
 
-.containerbox button:hover {
-    height: 85px;
-}
-
-
-.container5 .btnyellow:hover {
-    height: 105px;
-}
-
-
-.container8box .btnyellow:hover {
-    height: 85px;
-}
-
-
 .container8box:hover {
     background-size: 130%;
     position: relative;
     padding-bottom: 20px;
     margin-bottom: 70px;
-
     transition: 1s;
 }
 
@@ -74,12 +56,6 @@
     z-index: 22;
 
 }
-
-.blogpost img:hover {
-
-    width: 100%;
-}
-
 
 #menu-toggle {
     display: none;

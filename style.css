@@ -72,12 +72,7 @@ body {
 
 }
 
-.menubar .btn {
-    width: 300px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
+
 
 .menubar ul {
     display: flex;
@@ -98,18 +93,26 @@ body {
     padding: 0.2em 0;
 }
 
-
-
-
+.menubar .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+}
 
 .btnyellow {
-    width: 250px;
-    height: 60px;
+    position: relative;
+    min-width: 70px;
+    min-height: 60px;
+    padding: 0.4em 1.7em;
     border-radius: 50px;
     border: none;
     font-size: 1.5rem;
     background-color: rgb(214, 214, 111);
+    border: 2px solid rgb(214, 214, 111);
     cursor: pointer;
+    transition: 0.2s;
 }
 
 .menubutton {
@@ -163,7 +166,8 @@ body {
 }
 
 .containerbox button {
-    height: 80px;
+    min-height: 70px;
+    
 }
 
 .containerbox h5 {
@@ -318,7 +322,7 @@ body {
 }
 
 .container5 .btnyellow {
-    height: 100px;
+    min-height: 70px;
 }
 
 .container6 {
@@ -380,7 +384,7 @@ body {
 }
 
 .container8box .btnyellow {
-    height: 80px;
+    min-height: 80px;
 }
 
 .container9 {
@@ -569,9 +573,10 @@ body {
 }
 
 .containercontactus form .btnyellow {
-    width: 200px;
-    margin: 20px;
-    height: 80px;
+    width: 150px;
+    min-height: 70px;
+    min-width: 70px;
+
 }
 
 
