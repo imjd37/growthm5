@@ -18,50 +18,52 @@ body {
 }
 
 .navarea {
-    display: flex;
-    width: 100vw;
-    justify-content: center;
+    position: fixed;
+    min-height: 79px;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding: 1% 1rem;
+    z-index: 99;
+
 }
 
 
 .navbar1 {
     background-color: white;
-    position: fixed;
-    margin: 25px;
+    min-height: 60px;
+    max-width: 1760px;
+    margin: auto;
     border-radius: 20px;
-    max-width: 1800px;
-    width: 88vw;
-    height: 110px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 40px;
+    padding: 1%;
     font-size: 1.3rem;
-    z-index: 99;
     transition: 400ms;
 
 }
 
 .navbar2 {
     background-color: transparent;
-    position: fixed;
-    margin: 25px;
+    min-height: 60px;
+    max-width: 1760px;
+    margin: auto;
     border-radius: 20px;
-    max-width: 1800px;
-    width: 88vw;
-    height: 110px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 40px;
+    padding: 1%;
     font-size: 1.3rem;
-    z-index: 99;
     transition: 400ms;
 
 }
 
 .navbar .logo {
     z-index: 99;
+}
+.navbar .logo h2{
+    margin: auto;
 }
 
 
@@ -81,6 +83,7 @@ body {
 
 .menubar ul {
     display: flex;
+    margin: auto;
 }
 
 .menubar ul li {
