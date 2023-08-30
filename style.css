@@ -149,7 +149,7 @@ section {
 
 
 
-.container1 {
+.container_about {
     background-image: url(imgs/pexels-life-of-pix-7974.jpg);
     background-size: cover;
     background-position: 0%;
@@ -307,7 +307,7 @@ section {
     border-radius: 20px;
 }
 
-.container5 {
+.container_value {
     padding-top: 5rem;
     padding-bottom: 5rem;
     width: 100%;
@@ -328,19 +328,19 @@ section {
 
 }
 
-.container5 p:first-child {
+.container_value p:first-child {
     opacity: 0.5;
     font-size: 1.5rem;
     margin: auto;
 }
 
-.container5 p:nth-child(2) {
+.container_value p:nth-child(2) {
     font-size: 3.5rem;
     padding-top: 10px;
     margin: auto;
 }
 
-.container5 p:nth-child(3) {
+.container_value p:nth-child(3) {
     font-size: 1.5rem;
     line-height: 2.5rem;
 }
@@ -357,34 +357,34 @@ section {
     max-width: 500px;
 }
 
-.container5 img {
+.container_value img {
     max-width: 600px;
     width: 100%;
     padding-right: 5rem;
 
 }
 
-.container5 .btnyellow {
+.container_value .btnyellow {
     min-height: 70px;
 }
 
-.container6 {
+.container_work {
     width: 100vw;
     font-size: 1.5rem;
     text-align: center;
 }
 
-.container6 .cardsection {
+.container_work .cardsection {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.container6 .cardsection .card {
+.container_work .cardsection .card {
     margin: 40px
 }
 
-.container7 {
+.container_howIt {
     height: 600px;
     width: 100%;
     background-color: rgb(236, 231, 159);
@@ -430,7 +430,7 @@ section {
     min-height: 80px;
 }
 
-.container9 {
+.container_price {
     height: 700px;
     width: 100%;
     background-color: black;
