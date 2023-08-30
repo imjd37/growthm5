@@ -312,13 +312,20 @@ section{
     padding-bottom: 5rem;
     width: 100%;
     background-color: black;
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    color: white;
     color: rgb(214, 214, 111);
+    display: flex;
+
+    
+}
+
+.containerValue{
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    gap: 5rem;
+    justify-content: space-between;
+    margin: 0 10%;
+    
 }
 
 .container5 p:first-child {
@@ -336,12 +343,15 @@ section{
 }
 
 .containerValue_img{
-    width: 42%;
+    width: 50%;
 }
+.containerValue_img img{
+    width: 100%;
+} 
 
 .containerValue_para{
-  padding: 1%;
-}
+  max-width: 500px;
+  }
 
 .container5 img {
     max-width: 600px;
