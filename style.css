@@ -160,16 +160,12 @@ section {
     align-items: flex-end;
     justify-content: center;
 
-
-
-
-
 }
 
 .containerbox {
 
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 55px;
     line-height: 60px;
     width: 60vw;
 }
@@ -182,12 +178,15 @@ section {
 .containerbox h5 {
     opacity: 0.6;
     color: white;
+    margin-top: auto;
+    margin-bottom: 32px;
 
 }
 
 .containerbox p {
     font-size: 4rem;
     color: white;
+    margin-top: auto;
 
 }
 
@@ -211,6 +210,10 @@ section {
     margin-right: 0;
 }
 
+.container2row .textarea{
+    width: 50%;
+}
+
 .container2row .textarea h1 {
     font-size: 3.2em;
     margin: 0;
@@ -225,15 +228,16 @@ section {
 
 }
 
-.container2row img {
+.container2row .imgarea{
     height: 500px;
-    max-width: 400px;
-    /* width: 40%; */
+    width: 50%;
     object-fit: cover;
+    
+}
 
-
-
-
+.container2row .imgarea img {
+   width: 100%;
+   height: 100%;
 }
 
 
@@ -292,15 +296,11 @@ section {
     align-items: center;
     justify-content: center;
     margin-top: 100px;
-    padding: 0 100px
 }
 
 .container4 .containerbox {
     font-size: 2.8rem;
     line-height: 90px;
-
-
-
 }
 
 .container4 img {
@@ -362,8 +362,6 @@ section {
 .container_value img {
     max-width: 600px;
     width: 100%;
-    padding-right: 5rem;
-
 }
 
 .container_value .btnyellow {
@@ -387,7 +385,6 @@ section {
 }
 
 .container_howIt {
-    height: 600px;
     width: 100%;
     background-color: rgb(236, 231, 159);
     display: flex;
@@ -395,17 +392,21 @@ section {
     justify-content: center;
     font-size: 2rem;
     text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 
 }
 
 
 .container8box {
-    background-color: blueviolet;
     background-image: url(imgs/pexels-miguel-padrin-1111371.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 130%;
     background-size: 1600px;
-    height: 550px;
+    /* height: 550px; */
+    padding-top: 3rem;
+    padding-bottom: 5rem;
     max-width: 1700px;
     /* width: 1600px; */
     width: 80vw;
@@ -433,7 +434,6 @@ section {
 }
 
 .container_price {
-    height: 700px;
     width: 100%;
     background-color: black;
     color: white;
@@ -441,9 +441,13 @@ section {
     display: flex;
     justify-content: center;
     text-align: center;
-
-
 }
+
+.container_price img{
+    width: 800px;
+    margin-bottom: 4rem;
+}
+
 
 .conrainerblogpost {
     max-width: 1800px;
@@ -455,6 +459,7 @@ section {
     opacity: 0.5;
     font-size: 50px;
     margin: 40px 120px;
+    text-align: start;
 
 }
 
@@ -537,6 +542,7 @@ section {
 
 .ourteam .team p {
     font-size: 2rem;
+    margin: auto;
 
 }
 
@@ -568,7 +574,6 @@ section {
     margin-top: 5rem;
     margin-bottom: 5rem;
     max-width: 1800px;
-    transform: scale(107%);
 }
 
 .containervideo .video .play {
@@ -614,7 +619,6 @@ section {
     width: 50vw;
     margin: 20px;
     background: transparent;
-    font-size: 2rem;
     border-style: none;
     border-bottom-style: solid;
     outline: none;
