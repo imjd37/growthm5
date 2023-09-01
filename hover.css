@@ -194,6 +194,7 @@
 
     .container2row {
         flex-wrap: wrap;
+        gap: 0;
         
     }
 

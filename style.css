@@ -229,7 +229,7 @@ section {
 }
 
 .container2row .imgarea{
-    height: 500px;
+    /* height: 500px; */
     width: 50%;
     object-fit: cover;
     
