@@ -242,7 +242,7 @@ section {
 
 
 
-.container3 {
+.container-service {
 
     max-width: 1800px;
     width: 100%;
@@ -250,14 +250,13 @@ section {
     display: flex;
     /* flex-wrap: wrap; */
     font-size: 1.5rem;
-    gap: 8%;
     margin: 0 8%;
     text-align: center;
-    justify-content: center;
+    justify-content: space-around;
 
 }
 
-.container3 .box1 {
+.container-service .box1 {
     height: 100%;
     max-width: 330px;
     display: flex;
@@ -268,7 +267,7 @@ section {
     line-height: 40px;
 }
 
-.container3 .box2 {
+.container-service .box2 {
     height: 100%;
     max-width: 330px;
     display: flex;
@@ -281,12 +280,12 @@ section {
 
 }
 
-.container3 p {
+.container-service p {
     text-align: center;
     opacity: 0.6;
 }
 
-.container3 img {
+.container-service img {
     width: 100%;
     border-radius: 35%;
 }
