@@ -37,7 +37,7 @@
     background-size: 130%;
     background-position: cover;
     position: relative;
-    
+    height: 90%;
     transition: 1s;
 }
 
@@ -255,10 +255,20 @@
     }
     .container8box{
         font-size: 5vw;
+        width: 95%;
+        border-radius: 40px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
     }
     .container8box h1 { 
-        line-height: 55px;
+
+        font-size: 8vw;
+        line-height: 8vh;
         
+    }
+    .container8box .btnyellow {
+        min-height: 50px;
     }
 
     .blogpost{
@@ -281,6 +291,10 @@
 
         
     }
+
+    footer{
+        font-size: 4vw;
+    }
     
     
 }
@@ -294,7 +308,7 @@
     }
 
     .container3 .box2 {
-       
+        
         margin-top: 0;
     }
 
