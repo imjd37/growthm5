@@ -12,6 +12,6 @@ window.onscroll = function () {
   }
 };
 
-
-
-
+document.querySelector(".menubar").onclick = function () {
+  document.getElementById("menu-toggle").checked = false;
+};

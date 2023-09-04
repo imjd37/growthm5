@@ -56,17 +56,12 @@
 }
 
 @media (max-width: 1000px) {
-
-
-
-
-
   .menubutton {
     display: flex;
   }
 
   .menubar {
-    visibility: hidden;
+    display: none;
   }
 
   .menubar {
