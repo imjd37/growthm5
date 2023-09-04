@@ -35,16 +35,16 @@
         <div class="menubar toggledmenu">
           <ul>
             <li>
-              <a href="#"> About </a>
+              <a href="#ContainerAbout"> About </a>
             </li>
             <li>
-              <a href="#"> Work </a>
+              <a href="#ContainerWork"> Work </a>
             </li>
             <li>
-              <a href="#"> Blog </a>
+              <a href="#ContainerBlog"> Blog </a>
             </li>
             <li>
-              <a href="#"> Contact </a>
+              <a href="#ContainerContactUs"> Contact </a>
             </li>
           </ul>
           <div class="btn">
@@ -54,7 +54,7 @@
       </div>
     </nav>
 
-    <div class="container_about">
+    <div class="container_about" id="ContainerAbout">
       <div class="containerbox">
         <h5>About GrowthM5</h5>
         <p>Scelerisque varius morbi enim nunc faucibus a pellentesque.</p>
@@ -143,7 +143,7 @@
       </div>
     </section>
 
-    <div class="container_work">
+    <div class="container_work" id="ContainerWork">
       <div>
         <h1>Our Recent awesome work</h1>
       </div>
@@ -188,7 +188,7 @@
       </div>
     </div>
 
-    <div class="container8box">
+    <div class="container8box" id="ContainerContactUs">
       <h1>
         Our Clients Believe Our Creative Logo Design <br />
         Services Are To Die For
@@ -210,7 +210,7 @@
       </div>
     </div>
 
-    <div class="conrainerblogpost">
+    <div class="conrainerblogpost" id="ContainerBlog">
       <div>
         <h1>Latest blog posts</h1>
 
@@ -312,19 +312,5 @@
     <footer>this project create by Jitendra Pratap Singh</footer>
   </body>
 
-  <script>
-    const nav = document.querySelector(".navbar");
-    window.onscroll = function () {
-      if (
-        document.body.scrollTop >= 100 ||
-        document.documentElement.scrollTop >= 100
-      ) {
-        nav.classList.add("navbar1");
-        nav.classList.remove("navbar2");
-      } else {
-        nav.classList.add("navbar2");
-        nav.classList.remove("navbar1");
-      }
-    };
-  </script>
+  <script src="script.js"></script>
 </html>
