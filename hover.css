@@ -130,10 +130,15 @@
     font-size: 3.5rem;
   }
 
-  .InfoArea .InfoImage {
-    height: 350px;
+  .InfoArea .InfoContant p {
+    margin: auto;
   }
 
+  .InfoArea .InfoImage img {
+    height: 360px;
+  }
+
+  
   .PriceContainer img {
     width: 90%;
   }
