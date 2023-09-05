@@ -1,17 +1,17 @@
-const nav = document.querySelector(".navbar");
+const nav = document.querySelector(".Navbar");
 window.onscroll = function () {
   if (
     document.body.scrollTop >= 100 ||
     document.documentElement.scrollTop >= 100
   ) {
-    nav.classList.add("navbar1");
-    nav.classList.remove("navbar2");
+    nav.classList.add("NavbarChange");
+    nav.classList.remove("NavbarDefault");
   } else {
-    nav.classList.add("navbar2");
-    nav.classList.remove("navbar1");
+    nav.classList.add("NavbarDefault");
+    nav.classList.remove("NavbarChange");
   }
 };
 
-document.querySelector(".menubar").onclick = function () {
-  document.getElementById("menu-toggle").checked = false;
+document.querySelector(".Menubar").onclick = function () {
+  document.getElementById("MenuToggle").checked = false;
 };
