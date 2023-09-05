@@ -248,8 +248,13 @@ section {
   align-items: center;
   line-height: 40px;
 }
-
+.ServiceContainer h3{
+  margin: auto;
+  font-weight: 200;
+  opacity: 0.8;
+}
 .ServiceContainer p {
+  margin-top: auto;
   text-align: center;
   opacity: 0.6;
 }
