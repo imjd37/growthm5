@@ -31,17 +31,22 @@
   transform: translate3d(0, 0, 0);
 }
 
-.ContactUsContainer:hover {
+
+.ContactUsContainer:hover{
+  transform: translateY(-15px);
+  transition: 1s;
+}
+
+
+
+.ContactUsArea:hover {
   background-size: 130%;
-  background-position: cover;
   position: relative;
   height: 90%;
   transition: 1s;
 }
 
-.ContactUsContainer h1:hover {
-  transition: 1s;
-}
+
 
 .Blog:hover {
   border: 2px solid blue;
@@ -55,7 +60,7 @@
   display: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1000px){
   .MenuIcon {
     display: flex;
   }
@@ -137,6 +142,18 @@
   .InfoArea .InfoImage img {
     height: 360px;
   }
+  .ContactUsContainer p {
+    font-size: 6vw;
+    line-height: 9vh;
+  }
+  .ContactUsArea {
+    background-size: 120%;
+  }
+  .ContactUsArea:hover {
+    background-size: 150%;
+  }
+  
+
 
   .PriceContainer img {
     width: 90%;
@@ -154,7 +171,7 @@
     font-size: 1.5rem;
     height: 50px;
   }
-}
+  }
 
 @media (max-width: 767px) {
   .InfoArea .InfoContant h1 {
@@ -217,20 +234,23 @@
   .HowItWorkContainer {
     font-size: 6vw;
   }
-  .ContactUsContainer {
-    font-size: 5vw;
-    width: 95%;
-    border-radius: 40px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+  .ContactUsContainer{
+    width: 90%;
   }
-  .ContactUsContainer h1 {
-    font-size: 8vw;
-    line-height: 8vh;
+
+  .ContactUsContainer p {
+    font-size: 7.5vw;
+    line-height: 9vh;
+    text-align: center;
   }
-  .ContactUsContainer .YellowButton {
-    min-height: 50px;
+
+  .ContactUsArea {
+    background-size: 140%;
   }
+  .ContactUsArea:hover {
+    background-size: 160%;
+  }
+  
 
   .Blog {
     width: 95%;
@@ -269,8 +289,35 @@
     height: auto;
     width: 90vw;
   }
+ 
+  .ContactUsArea{
+    background-size: 220%;
+    position: relative;
+    height: 90%;
+  }
+
+  .ContactUsArea:hover{
+    background-size: 250%;
+    position: relative;
+    height: 90%;
+  }
+
+  .ContactUsArea{
+    border-radius: 40px;
+  }
+  .ContactUsContainer p{
+   font-size: 45px;
+   line-height: 40px;
+  }
+
+  .ContactUsContainer .YellowButton {
+    width: 90%;
+    
+  }
 
   .YellowButton {
     width: 90%;
   }
+
 }
+

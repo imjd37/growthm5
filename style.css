@@ -383,34 +383,57 @@ section {
 }
 
 .ContactUsContainer {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  max-width: 1800px;
+  width: 78vw;
+  transition: 1s;
+  
+  
+}
+
+.ContactUsArea{
   background-image: url(imgs/pexels-miguel-padrin-1111371.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 100%;
+  left: 0;
+  top: 0;
   height: 100%;
-  background-size: 1600px;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  max-width: 1700px;
-  width: 80vw;
-  margin: 90px 20px;
-  border-radius: 80px;
+  min-height: 17em;
+  width: 100%;
+  border-radius: 75px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   font-size: 1.8rem;
   text-align: center;
   transition: 1s;
 }
 
-.ContactUsContainer h1 {
-  opacity: 0.5;
-  line-height: 90px;
+.ContactPara{
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  /* padding-bottom: 16px; */
+}
+
+.ContactPara p {
+  opacity: 0.45;
+  font-size: 4rem;
+  font-weight: 100;
+  line-height: 70px;
   transition: 1s;
+  margin: auto;
 }
 
 .ContactUsContainer .YellowButton {
-  min-height: 80px;
+  min-height: 70px;
+  width: 250px;
+  margin-bottom: 50px;
 }
 
 .PriceContainer {
