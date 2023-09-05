@@ -207,6 +207,9 @@
     flex-wrap: wrap;
   }
 
+  .ServiceContainer .ServiceSection:nth-child(2) {
+    margin-top: 0;
+  }
   .ValueContainer p:nth-child(2) {
     font-size: 7.5vw;
     line-height: 10vw;
@@ -217,10 +220,15 @@
     line-height: 08vw;
   }
 
-  .WorkContainer {
-    font-size: 5vw;
+  .WorkContainer div h1 {
+    font-size: 2.5rem;
+    
   }
 
+  .DeliverContainer h2 {
+    font-size: 3rem;
+    line-height: 45px;
+  }
   .ValueArea {
     flex-wrap: wrap;
   }
@@ -263,7 +271,7 @@
   }
 
   .PriceContainer {
-    font-size: 5vw;
+    font-size: 4.5vw;
   }
 
   .BlogContainer h1 {
@@ -275,26 +283,37 @@
     font-size: 5vw;
   }
 
+
+  .VideoContainer {
+    width: 90%;
+    padding: 0;
+  }
+
   footer {
     font-size: 4vw;
   }
 }
 
 @media (max-width: 575px) {
+
+  .AboutArea button {
+    min-height: 65px;
+  }
+
   #MenuToggle:checked ~ .Menubar .ButtonContainer {
     width: 100%;
     margin-left: 0;
-  }
-
-  .ServiceContainer .box2 {
-    margin-top: 0;
   }
 
   .DeliverContainer img {
     height: auto;
     width: 90vw;
   }
- 
+  .DeliverContainer h2 {
+    font-size: 2.5rem;
+  }
+
+
   .ContactUsArea{
     background-size: 220%;
     position: relative;
@@ -311,7 +330,8 @@
     border-radius: 40px;
   }
   .ContactUsContainer p{
-   font-size: 45px;
+
+   font-size: 2.4rem;
    line-height: 40px;
   }
 
@@ -320,6 +340,10 @@
     
   }
 
+  .EnquiryContainer form .YellowButton {
+    width: 100%;
+    
+  }
   .YellowButton {
     width: 90%;
   }

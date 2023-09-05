@@ -446,6 +446,10 @@ section {
   text-align: center;
 }
 
+.PriceContainer div {
+  width: 90%;
+}
+
 .PriceContainer img {
   width: 800px;
   margin-bottom: 4rem;
@@ -466,7 +470,7 @@ section {
 .Blog {
   height: 450px;
   width: 350px;
-  margin: 0 10px;
+  margin: 10px;
   border: 2px solid transparent;
   border-radius: 20px;
   display: flex;
@@ -541,8 +545,13 @@ section {
   border-radius: 40px;
 }
 
+.OurTeamArea .OurTeam h2{
+  margin: auto;
+}
+
 .VideoContainer .VideoArea {
   position: relative;
+  
 }
 
 .VideoContainer .VideoArea img {
@@ -557,6 +566,7 @@ section {
   margin-top: 5rem;
   margin-bottom: 5rem;
   max-width: 1800px;
+  width: 72%;
 }
 
 .VideoContainer .VideoArea .VideoPlayButton {
