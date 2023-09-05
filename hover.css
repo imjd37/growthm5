@@ -231,6 +231,11 @@
     line-height: 60px;
     font-size: 1.8rem;
   }
+
+  .ValuePara {
+    max-width: 100%;
+    width: 100%;
+  }
   .HowItWorkContainer {
     font-size: 6vw;
   }
