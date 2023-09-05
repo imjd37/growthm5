@@ -306,7 +306,7 @@ section {
   /* flex-wrap: wrap; */
   align-items: center;
   gap: 5rem;
-  justify-content: space-between;
+  justify-content:left;
   margin: 0 10%;
 }
 
@@ -328,7 +328,7 @@ section {
 }
 
 .ValueImage {
-  width: 50%;
+  width: 40%;
 }
 
 .ValueImage img {
@@ -337,6 +337,7 @@ section {
 
 .ValuePara {
   max-width: 50%;
+  width: 35%;
 }
 
 .ValueContainer img {
