@@ -136,7 +136,7 @@ section {
 .AboutContainer {
   background-image: url(imgs/pexels-life-of-pix-7974.jpg);
   background-size: cover;
-  background-position:center;
+  background-position: center;
   width: 100vw;
   height: 100vh;
   font-size: 2rem;
@@ -152,18 +152,18 @@ section {
   width: 60vw;
 }
 
-.AboutArea  button {
+.AboutArea button {
   min-height: 80px;
 }
 
-.AboutArea  h5 {
+.AboutArea h5 {
   opacity: 0.6;
   color: white;
   margin-top: auto;
   margin-bottom: 32px;
 }
 
-.AboutArea  p {
+.AboutArea p {
   font-size: 4rem;
   color: white;
   margin-top: auto;
@@ -248,7 +248,7 @@ section {
   align-items: center;
   line-height: 40px;
 }
-.ServiceContainer h3{
+.ServiceContainer h3 {
   margin: auto;
   font-weight: 200;
   opacity: 0.8;
@@ -278,7 +278,7 @@ section {
   text-align: center;
 }
 
-.DeliverContainer h2{
+.DeliverContainer h2 {
   font-size: 3.5rem;
   font-weight: 300;
   line-height: 70px;
@@ -290,7 +290,6 @@ section {
   height: 350px;
   border-radius: 20px;
   margin-top: 20px;
-  
 }
 
 .ValueContainer {
@@ -355,9 +354,9 @@ section {
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
-.WorkContainer div h1{
+.WorkContainer div h1 {
   font-size: 3.5rem;
-  font-weight:bolder;
+  font-weight: bolder;
   opacity: 0.8;
 }
 .WorkContainer .WorkArea {
