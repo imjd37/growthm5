@@ -152,7 +152,7 @@
   .ContactUsArea:hover {
     background-size: 150%;
   }
-  
+
 
 
   .PriceContainer img {
@@ -171,7 +171,7 @@
     font-size: 1.5rem;
     height: 50px;
   }
-  }
+}
 
 @media (max-width: 767px) {
   .InfoArea .InfoContant h1 {
@@ -222,7 +222,7 @@
 
   .WorkContainer div h1 {
     font-size: 2.5rem;
-    
+
   }
 
   .DeliverContainer h2 {
@@ -263,7 +263,7 @@
   .ContactUsArea:hover {
     background-size: 160%;
   }
-  
+
 
   .Blog {
     width: 95%;
@@ -331,13 +331,13 @@
   }
   .ContactUsContainer p{
 
-   font-size: 2.4rem;
-   line-height: 40px;
+    font-size: 2.4rem;
+    line-height: 40px;
   }
 
   .ContactUsContainer .YellowButton {
     width: 90%;
-    
+
   }
 
   .EnquiryContainer form .YellowButton {
@@ -347,6 +347,67 @@
   .YellowButton {
     width: 90%;
   }
-
 }
 
+.CurrenciesContainer {
+  background: url(/imgs/money-countries-wallpaper-preview.jpg);
+  background-position: center;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.CurrenciesContainer h1 {
+  color: black;
+  text-shadow: -1px 0px 0px white, 2px 0px 0px white, 0px -2px 0px white,
+    0px 2px 0px white;
+}
+
+.CurrenciesArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  border: 8px solid rgba(214, 214, 111, 0.24);
+  background-color: rgba(0, 0, 0, 0.733);
+}
+
+.CurrenciesArea ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: bolder;
+}
+
+.CurrenciesArea ul li {
+  text-align: center;
+}
+
+#Currencies ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-width: 100px;
+  overflow: hidden;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#Currencies ul ul {
+  float: left;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+#Currencies ul li {
+  text-align: center;
+}
