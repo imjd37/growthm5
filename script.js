@@ -19,39 +19,34 @@ document.querySelector(".Menubar").onclick = function () {
   document.getElementById("MenuToggle").checked = false;
 };
 
+// ------------------------------------------ Currencies Script ------------------------------------
+
 async function callApi() {
   let result = await fetch("https://api.coinbase.com/v2/currencies");
   result = await result.json();
   console.log(result);
 
   let random = Math.floor(Math.random() * result.data.length);
+  // random = 160;
   console.log(random, result.data[random]);
+  console.log(result.data[result.data.length - random]);
 
-  if (random < 161) {
-    var html = "<ul>";
-    for (let i = 0; i < 10; i++) {
-      html += "<ul>";
-      html += "<li>" + result.data[random].id + "</li>";
-      html += "<li>" + result.data[random].name + "</li>";
-      html += "<li>" + result.data[random].min_size + "</li>";
+  var html = "<ul>";
+  for (let i = 0; i < 10; i++) {
+    html += "<ul>";
+    html += "<li>" + result.data[result.data.length - random].id + "</li>";
+    html += "<li>" + result.data[result.data.length - random].name + "</li>";
+    html += "<li>" + result.data[result.data.length - random].min_size + "</li>";
+
+    if (random < result.data.length - random) {
       result.data[random++];
-      html += "</ul>";
+    } else {
+      result.data[random--];
     }
-
-    html += "</ul>";
-  } else {
-    var html = "<ul>";
-    for (let i = 0; i < 172 - random; i++) {
-      html += "<ul>";
-      html += "<li>" + result.data[random].id + "</li>";
-      html += "<li>" + result.data[random].name + "</li>";
-      html += "<li>" + result.data[random].min_size + "</li>";
-      result.data[random++];
-      html += "</ul>";
-    }
-
     html += "</ul>";
   }
+
+  html += "</ul>";
 
   document.getElementById("Currencies").innerHTML = html;
 }
