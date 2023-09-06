@@ -306,7 +306,7 @@ section {
   /* flex-wrap: wrap; */
   align-items: center;
   gap: 5rem;
-  justify-content:left;
+  justify-content: left;
   margin: 0 10%;
 }
 
@@ -388,11 +388,9 @@ section {
   max-width: 1800px;
   width: 78vw;
   transition: 1s;
-
-  
 }
 
-.ContactUsArea{
+.ContactUsArea {
   background-image: url(imgs/pexels-miguel-padrin-1111371.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -411,7 +409,7 @@ section {
   transition: 1s;
 }
 
-.ContactPara{
+.ContactPara {
   position: relative;
   display: flex;
   flex-grow: 1;
@@ -545,13 +543,12 @@ section {
   border-radius: 40px;
 }
 
-.OurTeamArea .OurTeam h2{
+.OurTeamArea .OurTeam h2 {
   margin: auto;
 }
 
 .VideoContainer .VideoArea {
   position: relative;
-  
 }
 
 .VideoContainer .VideoArea img {
@@ -629,4 +626,16 @@ footer {
   text-align: center;
   font-size: 2rem;
   padding: 20px 0;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+}
+
+.anchor {
+  display: block;
+  height: 140px;
+  margin-top: -140px;
+  visibility: hidden;
 }

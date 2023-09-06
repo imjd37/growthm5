@@ -31,13 +31,10 @@
   transform: translate3d(0, 0, 0);
 }
 
-
-.ContactUsContainer:hover{
+.ContactUsContainer:hover {
   transform: translateY(-15px);
   transition: 1s;
 }
-
-
 
 .ContactUsArea:hover {
   background-size: 130%;
@@ -45,8 +42,6 @@
   height: 90%;
   transition: 1s;
 }
-
-
 
 .Blog:hover {
   border: 2px solid blue;
@@ -60,7 +55,7 @@
   display: none;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1000px) {
   .MenuIcon {
     display: flex;
   }
@@ -153,8 +148,6 @@
     background-size: 150%;
   }
 
-
-
   .PriceContainer img {
     width: 90%;
   }
@@ -170,6 +163,11 @@
     width: 80vw;
     font-size: 1.5rem;
     height: 50px;
+  }
+
+  .anchor {
+    height: 100px;
+    margin-top: -100px;
   }
 }
 
@@ -222,7 +220,6 @@
 
   .WorkContainer div h1 {
     font-size: 2.5rem;
-
   }
 
   .DeliverContainer h2 {
@@ -247,7 +244,7 @@
   .HowItWorkContainer {
     font-size: 6vw;
   }
-  .ContactUsContainer{
+  .ContactUsContainer {
     width: 90%;
   }
 
@@ -263,7 +260,6 @@
   .ContactUsArea:hover {
     background-size: 160%;
   }
-
 
   .Blog {
     width: 95%;
@@ -283,7 +279,6 @@
     font-size: 5vw;
   }
 
-
   .VideoContainer {
     width: 90%;
     padding: 0;
@@ -295,7 +290,6 @@
 }
 
 @media (max-width: 575px) {
-
   .AboutArea button {
     min-height: 65px;
   }
@@ -313,36 +307,32 @@
     font-size: 2.5rem;
   }
 
-
-  .ContactUsArea{
+  .ContactUsArea {
     background-size: 220%;
     position: relative;
     height: 90%;
   }
 
-  .ContactUsArea:hover{
+  .ContactUsArea:hover {
     background-size: 250%;
     position: relative;
     height: 90%;
   }
 
-  .ContactUsArea{
+  .ContactUsArea {
     border-radius: 40px;
   }
-  .ContactUsContainer p{
-
+  .ContactUsContainer p {
     font-size: 2.4rem;
     line-height: 40px;
   }
 
   .ContactUsContainer .YellowButton {
     width: 90%;
-
   }
 
   .EnquiryContainer form .YellowButton {
     width: 100%;
-    
   }
   .YellowButton {
     width: 90%;
