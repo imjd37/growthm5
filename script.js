@@ -1,4 +1,5 @@
 const nav = document.querySelector(".Navbar");
+const up = document.querySelector(".start");
 window.onscroll = function () {
   if (
     document.body.scrollTop >= 100 ||
@@ -6,9 +7,11 @@ window.onscroll = function () {
   ) {
     nav.classList.add("NavbarChange");
     nav.classList.remove("NavbarDefault");
+    up.style.visibility = "visible";
   } else {
     nav.classList.add("NavbarDefault");
     nav.classList.remove("NavbarChange");
+    up.style.visibility = "hidden";
   }
 };
 

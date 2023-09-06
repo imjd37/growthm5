@@ -639,3 +639,11 @@ footer {
   margin-top: -140px;
   visibility: hidden;
 }
+
+.start {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  visibility: hidden;
+  z-index: 99;
+}
