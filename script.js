@@ -21,34 +21,50 @@ document.querySelector(".Menubar").onclick = function () {
 
 // ------------------------------------------ Currencies Script ------------------------------------
 
-async function callApi() {
-  let result = await fetch("https://api.coinbase.com/v2/currencies");
+
+
+async function callAPI(url){
+ try {
+  let result = await fetch(url)
   result = await result.json();
-  console.log(result);
-
-  let random = Math.floor(Math.random() * result.data.length);
-  // random = 160;
-  console.log(random, result.data[random]);
-  console.log(result.data[result.data.length - random]);
-
-  var html = "<ul>";
-  for (let i = 0; i < 10; i++) {
-    html += "<ul>";
-    html += "<li>" + result.data[result.data.length - random].id + "</li>";
-    html += "<li>" + result.data[result.data.length - random].name + "</li>";
-    html += "<li>" + result.data[result.data.length - random].min_size + "</li>";
-
-    if (random < result.data.length - random) {
-      result.data[random++];
-    } else {
-      result.data[random--];
-    }
-    html += "</ul>";
-  }
-
-  html += "</ul>";
-
-  document.getElementById("Currencies").innerHTML = html;
+  return result;
+  
+ } catch (error) {
+  console.log("E:",error);
+  
+ }
 }
 
-callApi();
+function listOfData(upto,response){
+  let random = Math.floor(Math.random() *response.data.length);
+
+    var html = "<ul>";
+
+    if (random < upto) {
+      for (let i = 0; i < upto; i++) {
+        html += "<ul>";
+        html += "<li>" + response.data[random].id + "</li>";
+        html += "<li>" + response.data[random].name + "</li>";
+        html += "<li>" + response.data[random].min_size + "</li>";
+        html += "</ul>";
+        response.data[random++];   
+      }     
+    } else {
+      for (let i = 0; i < upto; i++) {
+        html += "<ul>";
+        html += "<li>" + response.data[random].id + "</li>";
+        html += "<li>" + response.data[random].name + "</li>";
+        html += "<li>" + response.data[random].min_size + "</li>";
+        html += "</ul>";
+        response.data[random--];  
+      }
+    }
+  html += "</ul>";
+document.getElementById("Currencies").innerHTML = html;
+}
+
+async function consumeAPI(){
+  const response = await callAPI("https://api.coinbase.com/v2/currencies");
+  listOfData(10,response);
+}
+consumeAPI();
