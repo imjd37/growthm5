@@ -19,7 +19,7 @@ section {
   background-size: cover;
 }
 
-.Navarea {
+.NavArea {
   position: fixed;
   min-height: 79px;
   left: 0;
@@ -29,7 +29,7 @@ section {
   z-index: 99;
 }
 
-.NavbarChange {
+.NavBarChange {
   background-color: white;
   min-height: 60px;
   max-width: 1760px;
@@ -43,7 +43,7 @@ section {
   transition: 400ms;
 }
 
-.NavbarDefault {
+.NavBarDefault {
   background-color: transparent;
   min-height: 60px;
   max-width: 1760px;
@@ -57,11 +57,11 @@ section {
   transition: 400ms;
 }
 
-.Navbar .Logo {
+.NavBar .Logo {
   z-index: 99;
 }
 
-.Navbar .Logo h2 {
+.NavBar .Logo h2 {
   margin: auto;
   opacity: 0.8;
   font-weight: 800;
@@ -628,19 +628,19 @@ footer {
   padding: 20px 0;
 }
 
-.header {
+.Header {
   position: fixed;
   top: 0;
 }
 
-.anchor {
+.Anchor {
   display: block;
   height: 140px;
   margin-top: -140px;
   visibility: hidden;
 }
 
-.start {
+.Start {
   position: fixed;
   right: 20px;
   bottom: 20px;

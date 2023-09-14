@@ -1,16 +1,16 @@
-const nav = document.querySelector(".Navbar");
-const up = document.querySelector(".start");
+const nav = document.querySelector(".NavBar");
+const up = document.querySelector(".Start");
 window.onscroll = function () {
   if (
     document.body.scrollTop >= 100 ||
     document.documentElement.scrollTop >= 100
   ) {
-    nav.classList.add("NavbarChange");
-    nav.classList.remove("NavbarDefault");
+    nav.classList.add("NavBarChange");
+    nav.classList.remove("NavBarDefault");
     up.style.visibility = "visible";
   } else {
-    nav.classList.add("NavbarDefault");
-    nav.classList.remove("NavbarChange");
+    nav.classList.add("NavBarDefault");
+    nav.classList.remove("NavBarChange");
     up.style.visibility = "hidden";
   }
 };
